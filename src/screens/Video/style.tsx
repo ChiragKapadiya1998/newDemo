@@ -1,0 +1,166 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: '#000',
+    overflow: 'hidden',
+  },
+  stage: {
+    flex: 1,
+    backgroundColor: '#000',
+    overflow: 'hidden',
+  },
+  player: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  overlay: {
+    flex: 1,
+    zIndex: 2,
+    elevation: 8,
+    backgroundColor: 'rgba(0,0,0,0.28)',
+    justifyContent: 'space-between',
+  },
+  top: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingLeft: 29.5,
+    paddingRight: 70,
+    paddingTop: 24,
+  },
+  topLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  circle: {
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 12,
+  },
+  circleBg: {
+    position: 'absolute',
+    width: 44,
+    height: 44,
+  },
+  topIcon: {
+    width: 18,
+    height: 18,
+    tintColor: '#fff',
+    resizeMode: 'contain',
+    zIndex: 2,
+  },
+  volPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    height: 44,
+    borderRadius: 22,
+    overflow: 'hidden',
+    paddingLeft: 16,
+    paddingRight: 14,
+  },
+  volBg: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+  },
+  volHit: {
+    width: 110,
+    height: 44,
+    justifyContent: 'center',
+    zIndex: 2,
+  },
+  volTrack: {
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: 'rgba(255,255,255,0.4)',
+    overflow: 'hidden',
+  },
+  volFill: {
+    height: 4,
+    backgroundColor: '#fff',
+  },
+  volIcon: {
+    width: 20,
+    height: 20,
+    marginLeft: 12,
+    tintColor: '#fff',
+    resizeMode: 'contain',
+    zIndex: 2,
+  },
+  volMuted: {
+    opacity: 0.35,
+  },
+  center: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  skipBtn: {
+    width: 64,
+    height: 64,
+    marginHorizontal: 22,
+  },
+  pauseBtn: {
+    width: 90,
+    height: 90,
+  },
+  playBtn: {
+    width: 78,
+    height: 78,
+    borderRadius: 39,
+    backgroundColor: 'rgba(255,255,255,0.38)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  play: {
+    width: 0,
+    height: 0,
+    marginLeft: 5,
+    borderTopWidth: 12,
+    borderBottomWidth: 12,
+    borderLeftWidth: 18,
+    borderTopColor: 'transparent',
+    borderBottomColor: 'transparent',
+    borderLeftColor: '#fff',
+  },
+  bottom: {
+    marginHorizontal: 16,
+    marginBottom: 16,
+    height: 40,
+    justifyContent: 'center',
+  },
+  bottomImage: {
+    borderRadius: 20,
+  },
+  bottomRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 14,
+  },
+  time: {
+    color: '#fff',
+    fontSize: 14,
+    lineHeight: 18,
+    fontFamily: 'Poppins-Medium',
+  },
+  barHit: {
+    flex: 1,
+    marginHorizontal: 8,
+    justifyContent: 'center',
+  },
+  bar: {
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: 'rgba(255,255,255,0.45)',
+    overflow: 'hidden',
+  },
+  fill: {
+    height: 4,
+    backgroundColor: '#fff',
+  },
+});
